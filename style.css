@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Brown-800: hsl(14, 45%, 36%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+    background: var(--Stone-100);
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    list-style-position: inside;
+}
+
+.container {
+    background: var(--White);
+    max-width: 736px;
+    margin: 40px auto;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.segundo-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.omelete {
+    object-fit: cover;
+    align-self: center;
+    width: 100%;
+    border-radius: 17px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--Stone-900);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--Stone-600);
+    margin-bottom: 35px;
+}
+
+#preparacao {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: var(--Rose-800);
+    margin-bottom: 15px;
+    margin-left: 11px;
+}
+
+.times {
+    margin-bottom: 20px;
+}
+
+.times li::marker {
+    color: var(--Rose-800);
+}
+
+li {
+    margin-left: 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: var(--Stone-600);
+    line-height: 1.5;
+}
+
+li::marker {
+    color: var(--Brown-800);
+    font-weight: bold;
+}
+
+.titulo {
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    color: var(--Brown-800);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.passos {
+    margin-top: 18px;
+    border-bottom: 1px solid var(--Stone-150);
+    border-top: 1px solid var(--Stone-150);
+}
+
+.passos ol {
+    margin-bottom: 18px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Outfit', sans-serif;
+}
+
+.tabela td {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--Stone-150);
+}
+
+.tabela tr:last-child td {
+    border-bottom: none;
+}
+
+.tabela .valor {
+    color: var(--Brown-800);
+    font-weight: bold;
+}
