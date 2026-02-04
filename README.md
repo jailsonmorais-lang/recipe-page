@@ -37,7 +37,7 @@ Neste projeto, os principais objetivos foram:
 
 ### Screenshot
 
-![Screenshot do projeto](./screenshot.png)
+![Screenshot do projeto](./desktop-design.jpg)
 
 > _Adicione uma captura de tela do seu projeto aqui_
 
