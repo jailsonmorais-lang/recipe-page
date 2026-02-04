@@ -81,24 +81,6 @@ Refinei o uso de `padding` e `margin` para criar o espaçamento interno ideal, e
 
 ---
 
-## 🚀 Como executar o projeto
-
-1. **Clone o repositório:**
-
-```bash
-git clone https://github.com/jailsonmorais-lang/recipe-page.git
-```
-
-2. **Acesse a pasta do projeto:**
-
-```bash
-cd recipe-page
-```
-
-3. **Abra o arquivo `index.html` em seu navegador**
-
----
-
 ## 👤 Autor
 
 - **GitHub** - [Jailson Morais](https://github.com/jailsonmorais-lang)
